@@ -19,7 +19,13 @@
         var n1,n2,média;
         n1=document.getelementby id('nota1').value;
         n2=document.getelementby id('nota2').value;
-        média=(parsefloat)
+        média=parsefloat(n1)+parsefloat(n2)/2
+        document.getelementby(média).inne html=média
+
+        If(média <70){
+            Document.getelementby(status).inner html=reprovado
+        }else
+          Document.getelementby(status).inner html=aprovado
     }
 </script>
 </body>
